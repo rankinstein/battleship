@@ -45,7 +45,7 @@ There are a handful of unit tests for the game logic. They can be run by executi
 
 9:45pm - 10:30pm Debugging issue. Turned out that Parcel started to run a service worker which cached assets.
 
-## Day 3 (3 hours)
+## Day 3 (2.5 hours)
 10:00am - 12:00pm Game flow implemented
 
-12:00pm - 1:00pm Documentation and clean up for submission
+12:00pm - 12:30pm Documentation and clean up for submission
