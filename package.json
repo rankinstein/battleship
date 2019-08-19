@@ -1,0 +1,25 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "Basic Battleship browser game",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "start": "parcel ./src/index.html"
+  },
+  "author": "Jonah Rankin",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "parcel-bundler": "^1.12.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "jest": "^24.9.0"
+  }
+}

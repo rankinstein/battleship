@@ -1,0 +1,48 @@
+.board--tile {
+  width: 30px;
+  height: 30px;
+  background-color: cornflowerblue;
+  opacity: 1;
+  transition: opacity .15s ease-in-out;
+}
+
+.board--label {
+  text-align: center;
+}
+
+.board--tile:hover {
+  opacity: 0.8;
+}
+
+.board--tile--boat1 {
+  background-color: coral;
+}
+
+.board--tile--boat2 {
+  background-color: brown;
+}
+
+.board--tile--boat3 {
+  background-color: burlywood;
+}
+
+.board--tile--boat4 {
+  background-color: chocolate;
+}
+
+.board--tile--hit {
+  background-color: red;
+}
+
+.board--tile--miss {
+  background-color: aliceblue;
+}
+
+.board--tile--pointer {
+  cursor: pointer;
+}
+
+.board--row {
+  display: flex;
+  flex-direction: row;
+}

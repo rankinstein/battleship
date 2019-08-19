@@ -1,0 +1,16 @@
+.game--container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.game--exit {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 10;
+}
